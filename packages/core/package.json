@@ -1,0 +1,23 @@
+{
+  "name": "@onecocjs/now.core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cjs/index.js",
+  "exports": {
+    ".": {
+      "require": "./cjs/index.js",
+      "import": "./cjs/index.js",
+      "default": "./cjs/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "father build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "pirates": "^4.0.5"
+  }
+}

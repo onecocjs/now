@@ -1,0 +1,7 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@onecocjs/now.esbuild': workspace:^1.0.0
+
+devDependencies:
+  '@onecocjs/now.esbuild': link:../../packages/esbuild
